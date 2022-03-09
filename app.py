@@ -1,10 +1,9 @@
-from app import app
-import os
-from flask import Flask
+from flask import Flask, render_template, request                     
+app = Flask(__name__,template_folder="app/templates")          
+                                                          
+@app.route("/")
+def hello():
+    return render_template('index.html') 
 
-app = Flask(__name__)
-@app.route('/')
-
-if __name__ == '__main__':
-   port = int(os.environ.get("PORT", 5000))
-   app.run(host='0.0.0.0', port=port)
+if __name__ == "__main__":
+     app.run(debug=True ,port=8080,use_reloader=False)
