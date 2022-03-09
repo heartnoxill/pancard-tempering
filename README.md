@@ -1,21 +1,3 @@
-2022-03-09T08:27:17.447991+00:00 heroku[web.1]: State changed from crashed to starting
-
-2022-03-09T08:27:29.600133+00:00 heroku[web.1]: Starting process with command `gunicorn`
-
-2022-03-09T08:27:31.112292+00:00 app[web.1]:
-
-2022-03-09T08:27:31.112324+00:00 app[web.1]: Error: No application module specified.
-
-2022-03-09T08:27:31.295166+00:00 heroku[web.1]: Process exited with status 1
-
-2022-03-09T08:27:31.407974+00:00 heroku[web.1]: State changed from starting to crashed
-
-2022-03-09T08:27:44.000000+00:00 app[api]: Build succeeded
-
-2022-03-09T08:29:32.585002+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/" 
-
-I am stuck with these and cannot proceed further, can anyone help me 😂😭
-
 Step to run application:
 
 Step 1:	Create the copy of the project.
